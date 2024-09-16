@@ -1,0 +1,5 @@
+playback at 3x: 
+javascript:(()=>{document.querySelector('video').playbackRate=3.00})()
+
+playback at value determined by prompt, default to 2.75x
+javascript:(()=>{document.querySelector('video').playbackRate=parseFloat(prompt('Video%20Playback%20Speed','2.75'))})()
